@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2396BB40-0F58-4B16-909B-06F562034B3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gozen.Infrastructure", "Gozen.Infrastructure\Gozen.Infrastructure.csproj", "{13F26867-449B-416F-8EF8-7D59C8C73AC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gozen.Domain", "Gozen.Domain\Gozen.Domain.csproj", "{883A2CF5-49A9-4062-8FFA-1D88D6F63C64}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gozen.Application", "Gozen.Application\Gozen.Application.csproj", "{37BECE08-125A-4085-A0F1-FA7F8EC44C8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gozen.Infrastructure.IoC", "Gozen.Infrastructure.IoC\Gozen.Infrastructure.IoC.csproj", "{485A647A-3720-4722-97D8-767B3D655C87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gozen.API", "Gozen.API\Gozen.API.csproj", "{1BBB8666-C014-4F4F-BC1E-E054311C15D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF4F4C06-FCBB-45D0-AEA6-9E0406B1AAEF}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13F26867-449B-416F-8EF8-7D59C8C73AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F26867-449B-416F-8EF8-7D59C8C73AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F26867-449B-416F-8EF8-7D59C8C73AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F26867-449B-416F-8EF8-7D59C8C73AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883A2CF5-49A9-4062-8FFA-1D88D6F63C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883A2CF5-49A9-4062-8FFA-1D88D6F63C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883A2CF5-49A9-4062-8FFA-1D88D6F63C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883A2CF5-49A9-4062-8FFA-1D88D6F63C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BECE08-125A-4085-A0F1-FA7F8EC44C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BECE08-125A-4085-A0F1-FA7F8EC44C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BECE08-125A-4085-A0F1-FA7F8EC44C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BECE08-125A-4085-A0F1-FA7F8EC44C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{485A647A-3720-4722-97D8-767B3D655C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485A647A-3720-4722-97D8-767B3D655C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485A647A-3720-4722-97D8-767B3D655C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485A647A-3720-4722-97D8-767B3D655C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BBB8666-C014-4F4F-BC1E-E054311C15D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBB8666-C014-4F4F-BC1E-E054311C15D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBB8666-C014-4F4F-BC1E-E054311C15D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBB8666-C014-4F4F-BC1E-E054311C15D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13F26867-449B-416F-8EF8-7D59C8C73AC1} = {2396BB40-0F58-4B16-909B-06F562034B3A}
+		{883A2CF5-49A9-4062-8FFA-1D88D6F63C64} = {2396BB40-0F58-4B16-909B-06F562034B3A}
+		{37BECE08-125A-4085-A0F1-FA7F8EC44C8F} = {2396BB40-0F58-4B16-909B-06F562034B3A}
+		{485A647A-3720-4722-97D8-767B3D655C87} = {2396BB40-0F58-4B16-909B-06F562034B3A}
+		{1BBB8666-C014-4F4F-BC1E-E054311C15D6} = {2396BB40-0F58-4B16-909B-06F562034B3A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C5C1F6-1E12-439D-A3BC-4F7025A98FA5}
+	EndGlobalSection
+EndGlobal

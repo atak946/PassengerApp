@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  redisdb:
+    container_name: redisdb
+    restart: always
+    ports:
+      - "6379:6379"
+  gozen.api:
+    container_name: gozen.api
+    restart: on-failure
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - RedisSettings:Port=6379
+      - RedisSettings:Host=redisdb
+    ports:
+      - "5000:80"
+    depends_on:
+      - redisdb
